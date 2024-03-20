@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-neutral-800 text-white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.url {
+  position: absolute;
+  border-radius: 8px;
+  top: 70px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 6px 8px;
+  left: -30px;
+}
+
+.line {
+  background: #2f2f2f;
+  height: 1px;
+}
